@@ -4,8 +4,8 @@ class Program {
   public static void Main (string[] args) {
     int a = int.Parse(Console.ReadLine());
     int b = int.Parse(Console.ReadLine());
-    int x = a + b;
+    int X = a + b;
     
-    Console.WriteLine($"x = {x}");
+    Console.WriteLine($"X = {X}");
   }
 }
