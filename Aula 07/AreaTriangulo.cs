@@ -28,9 +28,9 @@ class Program {
 
   class Area{ //o métoddo deve ser público
     public static double AreaTriangulo (double b, double h){
-    double area = b * h / 2;
-    return area;
-  }
+      double area = b * h / 2;
+      return area;
+    }
   }
 
 }
