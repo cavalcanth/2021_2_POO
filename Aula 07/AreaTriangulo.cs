@@ -10,7 +10,7 @@ class Program {
     double x = Area.AreaTriangulo(10, 20);
     double y = Area.AreaTriangulo(5, 8);
     Console.WriteLine(x);
-    Console.WriteLine(y);
+    Console.WriteLine(y);    
 
   }
 
