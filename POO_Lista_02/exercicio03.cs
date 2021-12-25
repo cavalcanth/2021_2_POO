@@ -23,6 +23,20 @@ class Program {
 class Viagem{
   public double d;
   public int t;
+
+  public void setDistancia(double v){
+    d = v;
+  }
+  public double getDistancia(){
+    return d;
+  }
+
+  public void setTempo(int v){
+    t = v;
+  }
+  public double getTempo(){
+    return t;
+  }
   
   public double CalcVelMed(){
     double vel = (d*1000)/t;    
